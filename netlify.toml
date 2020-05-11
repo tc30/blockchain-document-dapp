@@ -16,7 +16,7 @@
 
   # Development Build Command
 
-#  framework = "#custom"
+  framework = "#custom"
   command = "./netlify-dev.sh"
 
   # Webpack-Dev-Server Port
@@ -46,4 +46,3 @@
       X-Frame-Options = "SAMEORIGIN"
       X-XSS-Protection = "1; mode=block"
       Referrer-Policy = "same-origin"
-
