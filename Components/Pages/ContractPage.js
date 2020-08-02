@@ -117,11 +117,7 @@ const ContractPage = props =>
 				else
 				{
 					props.produceSnackBar("This Contract Address Does Not Exist, Redirecting...");
-
-					setTimeout(() =>
-					{
-						history.push("/");
-					}, 3000)
+					setTimeout(() => history.push("/"), 3000)
 				}
 			});
 		}
